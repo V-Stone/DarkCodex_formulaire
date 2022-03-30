@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Formulaire DWWM</h1>
+        <form method="post" action="hamoudiyatou.php">
+            <p>
+                <label for="Nom">Nom</label> 
+                <input type="text" name="Nom" id="Nom" placeholder="Entrez votre nom"/>
+            
+            </p>
+
+            <p>
+                <label for="Email">Email</label> 
+                <input type="email" name="email" id="email" placeholder="Entrez votre email"/>
+            </p>
+            <p>
+                <label for="Number">Indiquez votre satisfaction <br> au cours de 1 à 10 </label> :
+                <input type="Number" name="Number" id="Number" placeholder="Numéro de 1 à 10"/>
+            </p>
+            <p>
+                <label for="Coach"> Qui est votre Coach</label> 
+                <select name="Coach" id="Coach">
+                    <option value="Birante SY">Birante SY</option>
+                    <option value="Malick BA">Malick BA</option>
+                    <option value="DIM">DIM</option>
+                </select>
+            </p>
+            <p>
+                <label for="Moment">A quel moment avez-vous cours?</label>
+                <input type="Radio" name="Moment" id="Matin"> <label for="matin"> Matin</label>
+                <input type="Radio" name="Moment" id="Matin"> <label for="matin"> Matin</label>
+                <input type="Radio" name="Moment" id="Matin"> <label for="matin"> Matin</label>
+            </p>
+            <p>
+                <label for="outils">Quels outils avez-vous rencontrés jusque là? (selectionez tout ce qui s'applique)</label>
+                <input type="checkbox" name="Outils" id="Outils"> <label for="matin"> HTML</label>
+                <input type="checkbox" name="Outils" id="Outils"> <label for="matin"> CSS</label>
+                <input type="checkbox" name="Outils" id="Outils"> <label for="matin"> JavaScript</label>
+                <input type="checkbox" name="Outils" id="Outils"> <label for="matin"> Editeur de texte</label>
+                <input type="checkbox" name="Outils" id="Outils"> <label for="Ligne de commande">Ligne de commande</label>
+
+            </p>
+            <P>
+                <label for="Expériences">Décrivez votre expériences jusque là</label>
+                <textarea name="Expériences" id="Expériences" cols="30" rows="4">Décrivez votre expérience ici</textarea>
+                  <p>
+                      <input type="submit" value="Envoyer" id="">
+                  </p>
+            </P>
+        </form>
+    </div>
+    
+</body>
+</html>
